@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DirectorioEmpleadosMawi.Views.DepartmentsPage"
+             xmlns:templates="clr-namespace:DirectorioEmpleadosMawi.Resources.Styles.Templates"
+             Title="DepartmentsPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Text="Departments Page" 
+               FontSize="24" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" 
+               Grid.Row="0"/>
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Departamentos}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <templates:SmallCardView 
+                        Nombre="{Binding Localidad}"
+                        Icono="\uf0b1"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

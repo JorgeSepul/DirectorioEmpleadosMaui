@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DirectorioEmpleadosMawi.Views.EmployeeDetailPage"
+             Title="EmployeeDetailPage">
+    <VerticalStackLayout VerticalOptions="Center" 
+                         HorizontalOptions="Center" 
+                         Spacing="15" 
+                         Padding="30">
+
+        <Border StrokeShape="RoundRectangle 60" 
+                HeightRequest="120" 
+                WidthRequest="120" 
+                Stroke="{StaticResource Primary}">
+            <Image Source="{Binding Empleado.Image_url}" 
+                   Aspect="AspectFill" />
+        </Border>
+
+        <Label Text="{Binding Empleado.Nombre}" 
+               FontSize="28" 
+               FontAttributes="Bold" 
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="{Binding Empleado.Apellidos}" 
+               FontSize="22" 
+               HorizontalTextAlignment="Center" />
+
+        <BoxView HeightRequest="1" Color="{StaticResource Gray200}" WidthRequest="200" />
+
+        <Label Text="{Binding DepartamentoAsociado.Nombre}" 
+               FontSize="18" 
+               TextColor="{StaticResource Primary}"
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="{Binding SedeAsociada.Localidad}" 
+               FontSize="16" 
+               HorizontalTextAlignment="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
