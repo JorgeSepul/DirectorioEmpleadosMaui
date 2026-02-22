@@ -87,12 +87,6 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## Captura de pantalla
-
-![Directorio de Empleados en funcionamiento](https://raw.githubusercontent.com/JorgeSepul/DirectorioEmpleadosMaui/master/Captura%20de%20pantalla%202026-02-22%20204828.png)
-
----
-
 ## Licencia
 
 Este proyecto está distribuido bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
