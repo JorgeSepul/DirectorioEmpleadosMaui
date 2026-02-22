@@ -1,6 +1,6 @@
 # Directorio de Empleados - Proyecto Mawi
 
-![Captura de pantalla de la aplicación]("https://github.com/JorgeSepul/DirectorioEmpleadosMaui/blob/master/Captura%20de%20pantalla%202026-02-22%20204828.png")
+![Captura de pantalla de la aplicación](https://raw.githubusercontent.com/JorgeSepul/DirectorioEmpleadosMaui/blob/master/Captura%20de%20pantalla%202026-02-22%20204828.png)
 
 ## Descripción
 Este proyecto es una aplicación de gestión de empleados que permite administrar la información del personal de manera centralizada. Facilita las tareas de registro, consulta, edición y eliminación de empleados (CRUD) en una base de datos local.
